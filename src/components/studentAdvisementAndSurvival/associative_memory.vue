@@ -1,13 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons pink  center">
+            <img src="../../assets/images/Models of Memory.gif">
+  </section>
   <section class="section section-icons pink  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="left-align">Associative Memory</h4>
-            <img src="../../assets/images/Models of Memory.gif" class="imglarge responsive">
+            <i class="material-icons large  pink-text">info</i>
+            <h6 class="center-align">Associative Memory</h6>
             <p class="left-align">
               Memory is an active area of research for neuroscientists, cognitive 
               scientists, mathematicians, computer scientists, neuro-psychologists, 
@@ -37,15 +42,3 @@
   </section>
   </div>
 </template>
-
-<style scoped>
-.imglarge{
-  width: 100%;
-}
-@media screen and (max-width: 900px){
-  .imglarge{
-  width: 100%;
-  height: auto;
-  }
-}
-</style>

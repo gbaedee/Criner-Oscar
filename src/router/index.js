@@ -2,15 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Login from '@/components/Login';
-import aboutMe from '@/components/aboutMe/aboutMe';
 import appLauncher from '@/components/appLauncher'
-import Spirituality from '@/components/Spirituality/Spirituality'
-import EthicsLawAndJustice from '@/components/EthicsLawAndJustice/EthicsLawAndJustice'
-import Literature from '@/components/Literature/Literature'
-import Business from '@/components/Business/Business'
-import ContactMe from '@/components/ContactMe/ContactMe'
-import publicLectures from '@/components/publicLectures/publicLectures'
-import EssaysAndPoetry from '@/components/EssaysAndPoetry/EssaysAndPoetry'
+import Spirituality from '@/components/Spirituality'
+import Business from '@/components/Business'
 import fundamentalsOfKnowledge from '@/components/fundamentalsOfKnowledge/fundamentalsOfKnowledge'
 import fundamentalsOfKnowledge_Biology from '@/components/fundamentalsOfKnowledge/fundamentalsOfKnowledge_Biology'
 import fundamentalsOfKnowledge_Chemistry from '@/components/fundamentalsOfKnowledge/fundamentalsOfKnowledge_Chemistry'
@@ -369,36 +363,6 @@ export default new Router({
       path: '/theater',
       name: 'Logic, Art And The Humanities: Theater',
       component: theater
-    },
-    {
-      path: '/EthicsLawAndJustice',
-      name: 'Ethics, Law and Justice',
-      component: EthicsLawAndJustice
-    },
-    {
-      path: '/Literature',
-      name: 'Literature',
-      component: Literature
-    },
-    {
-      path: '/EssaysAndPoetry',
-      name: 'Essays and Poetry',
-      component: EssaysAndPoetry
-    },
-    {
-      path: '/publicLectures',
-      name: 'Public Lectures',
-      component: publicLectures
-    },
-    {
-      path: '/ContactMe',
-      name: 'Contact Me',
-      component: ContactMe
-    },
-    {
-      path: '/aboutMe',
-      name: 'About Me',
-      component: aboutMe
     }
   ]
 })

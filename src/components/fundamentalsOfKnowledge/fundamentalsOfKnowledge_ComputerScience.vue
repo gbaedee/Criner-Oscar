@@ -1,8 +1,13 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons black  center">
+      
+  </section>
   <section class="section section-icons black  center">
     <div class="container">
+      
       <div class="row">
         <div class="col s12 m8">
           <div class="card-panel z-depth-5">

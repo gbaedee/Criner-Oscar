@@ -3,19 +3,25 @@
   
   <div>
     <section class="section section-icons teal  center">
-     
+     <img src="../../assets/images/KnowledgeVenn.jpg">
+     <p>
+            <mark>
+              <strong>
+                <i>
+                  Logical holistic view of knowledge where literature is the 
+                  common unifying subject.   
+                </i>
+              </strong>
+            </mark>
+          </p>
     </section>
   <section class="section section-icons teal  center">
     <div class="container">
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="center-align">Logical Systems</h4>
-            <img src="../../assets/images/KnowledgeVenn.jpg" class="responsive imglarge">
-            <p>
-              Logical holistic view of knowledge where literature is the 
-              common unifying subject. 
-            </p>
+            <i class="material-icons large  teal-text">info</i>
+            <h1 class="center-align">On Education -- Memory Is All There Is!</h1>
             <p class="left-align">
                One of the most startling facts that the serious scholar will 
                discover in the pursuit of excellence is that all fields of 
@@ -60,8 +66,10 @@
             </p>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col">
           <div class="card-panel z-depth-5">
+            <i class="material-icons large  teal-text">local_library</i>
+            <h6 class="center-align">Readings</h6>
             <p class="left-align">
              <ol>
                <li>
@@ -103,8 +111,7 @@
 </template>
 
 <style scoped>
-.imglarge{
-  width: 60%;
-  height: auto;
+mark{
+  background-color: white;
 }
 </style>

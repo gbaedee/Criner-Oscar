@@ -1,17 +1,23 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons purple  center">
+            <img src="../../assets/images/Chlorophyl-A.gif">
+            <p class="changePBGColor">
+                <mark> Average <i>Cholorophyl A measurements from all stations in the 
+                    Galveston Bay Estuary from 1972 to 2000 </i>
+                </mark>
+            </p>
+  </section>
   <section class="section section-icons purple  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="left-align">Computational Environmental Science Research</h4>
-            <img src="../../assets/images/Chlorophyl-A.gif" class="imglarge responsive">
-            <p>
-                Average Cholorophyl A measurements from all stations in the 
-                Galveston Bay Estuary from 1972 to 2000
-            </p>
+            <i class="material-icons large  black-text">info</i>
+            <h2 class="center-align">Computational Environmental Science Research</h2>
             <p class="left-align">
                The environment is a collection of  complex systems. 
             </p>
@@ -42,13 +48,7 @@
 </template>
 
 <style scoped>
-.imglarge{
-  width: 100%;
-}
-@media screen and (max-width: 900px){
-  .imglarge{
-  width: 100%;
-  height: auto;
-  }
+mark{
+    background-color: white;
 }
 </style>

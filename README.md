@@ -1,6 +1,6 @@
 # criner
 
-> A Vue.js online academic adviser web app
+> A Vue.js project
 
 ## Build Setup
 
@@ -25,18 +25,3 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-## App Info
-
-### Author
-
-Great Leh Baedee
-[Great Baedee](https://www.greatbaedee.com)
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License

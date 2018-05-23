@@ -1,14 +1,19 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons cyan  center">
+      <img class="imglarge" src="../../assets/images/Lucy.gif">
+      <img class="imglarge" src="../../assets/images/J_of_Man.gif">
+  </section>
   <section class="section section-icons cyan  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="center-align">Human Evolution</h4>
-            <img class="responsive imglarge" src="../../assets/images/Lucy.gif">
-            <img class="responsive imglarge" src="../../assets/images/J_of_Man.gif">
+            <i class="material-icons large  cyan-text">info</i>
+            <h1 class="center-align">Human Evolution</h1>
             <h5 class="center-align">Science is now Rewriting History</h5>
             <p class="left-align">
                 Almost all of anthropology and history has to be recast in the 
@@ -81,8 +86,10 @@
             </p>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col">
           <div class="card-panel z-depth-5">
+            <i class="material-icons large  cyan-text">local_library</i>
+            <h1 class="center-align">Readings</h1>
             <p class="left-align">
                 <ol>
                   <li>

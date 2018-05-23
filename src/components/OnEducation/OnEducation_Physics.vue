@@ -1,13 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons cyan  center">
+            <img src="../../assets/images/S29.gif">
+  </section>
   <section class="section section-icons cyan  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="center-align">Physics</h4>
-            <img src="../../assets/images/S29.gif" class="responsive imglarge">
+            <i class="material-icons large  cyan-text">info</i>
+            <h6 class="center-align">Physics</h6>
             <p class="left-align">
                 Physics has been one of  my most enjoyable subjects.  It has been 
                 a subject that I have studied most of my life. My study of 
@@ -27,10 +32,3 @@
   </section>
   </div>
 </template>
-
-<style scoped>
-.imglarge{
-  width: 60%;
-  height: auto;
-}
-</style>

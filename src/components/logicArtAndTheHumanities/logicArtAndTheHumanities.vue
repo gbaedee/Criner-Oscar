@@ -1,13 +1,17 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons green  center">
+     <img src="../../assets/images/ChaoticSines-110.jpg">
+    </section>
   <section class="section section-icons green  center">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="center-align">Art and Humanity</h4>
-            <img src="../../assets/images/ChaoticSines-110.jpg" class="responsive imglarge">
+            <i class="material-icons large  green-text">info</i>
+            <h1 class="center-align">Art and the Humanities</h1>
             <p class="left-align">
              In my view mathematics and science are as much an art as are any of 
              the other subjects commonly called "the arts."  Mathematics is very 
@@ -43,7 +47,7 @@
 </template>
 
 <style scoped>
-.imglarge{
- width: 100%;
+mark{
+  background-color: white;
 }
 </style>

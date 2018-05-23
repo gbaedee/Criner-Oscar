@@ -1,13 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons pink  center">
+            <img src="../../assets/images/VRC_StraightLine.gif">
+  </section>
   <section class="section section-icons pink  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="left-align">Choosing a Major Field of Study</h4>
-            <img src="../../assets/images/VRC_StraightLine.gif" class="imglarge responsive">
+            <i class="material-icons large  pink-text">info</i>
+            <h6 class="center-align">Choosing a Major Field of Study</h6>
             <p class="left-align">
                The conventional  wisdom is that you should major in some field of 
                study that you like or enjoy. There is no doubt that one should 
@@ -57,15 +62,3 @@
   </section>
   </div>
 </template>
-
-<style scoped>
-.imglarge{
-  width: 100%;
-}
-@media screen and (max-width: 900px){
-  .imglarge{
-  width: 100%;
-  height: auto;
-  }
-}
-</style>

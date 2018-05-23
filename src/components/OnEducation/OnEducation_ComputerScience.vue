@@ -1,13 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons cyan  center">
+      <img class="imglarge" src="../../assets/images/S3-ChebySineOf-T3-001-01.gif">
+  </section>
   <section class="section section-icons cyan  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="center-align">Computer Science</h4>
-            <img class="responsive imglarge" src="../../assets/images/S3-ChebySineOf-T3-001-01.gif">
+            <i class="material-icons large  cyan-text">info</i>
+            <h1 class="center-align">Computer Science</h1>
             <p class="left-align">
              Computer science has become one of the fundamentals of our knowledge 
              system. It is a very young subject that truly began to show its 
@@ -42,8 +47,10 @@
             </p>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col">
           <div class="card-panel z-depth-5">
+            <i class="material-icons large  cyan-text">local_library</i>
+            <h1 class="center-align">Readings</h1>
             <p class="left-align">
                 <ol>
                   <li>
@@ -65,14 +72,3 @@
   </div>
 </template>
 
-<style scoped>
-.imglarge{
-  height: 505px;
-}
-@media screen and (max-width: 900px){
-  .imglarge{
-  width: 100%;
-  height: auto;
-  }
-}
-</style>

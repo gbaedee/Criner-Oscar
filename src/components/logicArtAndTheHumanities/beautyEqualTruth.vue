@@ -1,21 +1,20 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons green  center">
+            <img src="../../assets/images/printlogo.gif">
+  </section>
   <section class="section section-icons green  center">
     <div class="container">
+      
       <div class="row">
         <div class="col">
           <div class="card-panel z-depth-5">
-            <img src="../../assets/images/printlogo.gif">
-            <h6 class="left-align">
-                March 26, 2002
-            </h6>
-            <h4 class="left-align">
-                The Most Seductive Equation in Science: Beauty Equals Truth
-            </h4>
-            <h6 class="left-align">
-                By DENNIS OVERBYE
-            </h6>
+            <i class="material-icons large  green-text">info</i>
+            <h6 class="left-align">March 26, 2002</h6>
+            <h3 class="left-align">The Most Seductive Equation in Science: Beauty Equals Truth</h3>
+            <h6 class="left-align">By DENNIS OVERBYE</h6>
             <p class="left-align">
                 In the fall of 1915, Albert Einstein, living amid bachelor 
                 clutter on coffee, tobacco and loneliness in Berlin, was close to 

@@ -1,13 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons teal  center">
+            <img src="../../assets/images/SNAG-0001.gif">
+  </section>
   <section class="section section-icons teal  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="center-align">Biology</h4>
-            <img src="../../assets/images/SNAG-0001.gif" class="responsive imglarge">
+            <i class="material-icons large  teal-text">info</i>
+            <h6 class="center-align">Biology</h6>
             <p class="left-align">
                 Biology is a fundamental subject. What could be more fascinating 
                 than studying the life process? Biology is the foundation 
@@ -43,10 +48,12 @@
             </p>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col">
           <div class="card-panel z-depth-5">
+            <i class="material-icons large  teal-text">local_library</i>
+            <h6 class="center-align">Readings</h6>
             <p>
-              <img src="../../assets/images/JustEE.jpg" class="responsive imglarge">
+              <img src="../../assets/images/JustEE.jpg">
             </p>
             <p class="left-align">
               <router-link to="logicPhilosophyAndScienceHumanEvolution">Human Evolutionary History</router-link>
@@ -82,15 +89,3 @@
   </section>
   </div>
 </template>
-
-<style scoped>
-.imglarge{
-  width: 90%;
-}
-@media screen and (max-width: 900px){
-  .imglarge{
-  width: 100%;
-  height: auto;
-  }
-}
-</style>

@@ -1,13 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons pink  center">
+            <img src="../../assets/images/ParaF4-2.jpg">
+  </section>
   <section class="section section-icons pink  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="left-align"> 	The Financial Aid Trap</h4>
-            <img src="../../assets/images/ParaF4-2.jpg" class="imglarge responsive">
+            <i class="material-icons large  pink-text">info</i>
+            <h6 class="center-align"> 	The Financial Aid Trap</h6>
             <p class="left-align">
               Financing higher education is and will continue to be a major issue 
               for most people. However, you should not let money prevent you from 

@@ -1,13 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons pink  center">
+            <img src="../../assets/images/Teaching and Learning.gif">
+  </section>
   <section class="section section-icons pink  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h4 class="left-align">The Teaching and Learning Process</h4>
-            <img src="../../assets/images/Teaching and Learning.gif" class="imglarge responsive">
+            <i class="material-icons large  pink-text">info</i>
+            <h6 class="center-align">The Teaching and Learning Process</h6>
             <p class="left-align">
                Nothing is more confusing to students entering higher education 
                than the answers they get to the  important  questions, if they 
@@ -27,7 +32,13 @@
               answers and instructions that students can use to master subjects, 
               concepts,  and methods in your study in college.
             </p>
-            <h5 class="left-align">What is Learning?</h5>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card-panel z-depth-5">
+            <i class="material-icons large  pink-text">local_library</i>
+            <h6 class="center-align">What is Learning?</h6>
             <p class="left-align">
               Learning is a process of life. Learning occurs when something is 
               done repeatedly over periods of time and in many different ways. 
@@ -61,9 +72,15 @@
               longer time during which they learn survival skills and the 
               responsibilities of life in the group.
             </p>
-            <h5 class="left-align">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-panel z-depth-5">
+            <i class="material-icons large  pink-text">assignment</i>
+            <h6 class="center-align">
               Study methods based upon these assumptions
-            </h5>
+            </h6>
             <p class="left-align">
               A most effective method for the study of written material is to 
               perform active reading and writing along with other activities. 
@@ -74,9 +91,15 @@
               subjects. Both reading and writing enhances the memory of the 
               material.
             </p>
-            <h5 class="left-align">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-panel z-depth-5">
+            <i class="material-icons large  pink-text">assignment_turned_in</i>
+            <h6 class="center-align">
               There is only one way to learn and that is through memory.
-            </h5>
+            </h6>
             <p class="left-align">
                Students must know that many teachers are ambivalent about this 
                view of learning, because they believe that there is more to 
@@ -112,9 +135,15 @@
               Woods, or Maurizio Pollini have experienced. The learning process is 
               the same in art, athletics or academics.
             </p>
-            <h5 class="left-align">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-panel z-depth-5">
+            <i class="material-icons large  pink-text">border_color</i>
+            <h6 class="center-align">
               The relationship between knowing and understanding
-            </h5>
+            </h6>
             <p class="left-align">
                Knowing is the internalization of the what we have studied and 
                practiced. To be able to regurgitate, as it were, the facts, or 
@@ -129,20 +158,9 @@
             </p>
           </div>
         </div>
+
       </div>
     </div>
   </section>
   </div>
 </template>
-
-<style scoped>
-.imglarge{
-  width: 100%;
-}
-@media screen and (max-width: 900px){
-  .imglarge{
-  width: 100%;
-  height: auto;
-  }
-}
-</style>

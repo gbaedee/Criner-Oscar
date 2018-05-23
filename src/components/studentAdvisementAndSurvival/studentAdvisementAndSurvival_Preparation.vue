@@ -1,12 +1,18 @@
 <template>
   <!-- Section: Icon Boxes -->
+  
   <div>
+    <section class="section section-icons pink  center">
+            <img src="../../assets/images/bls earnings data.gif">
+  </section>
   <section class="section section-icons pink  center">
     <div class="container">
+      
       <div class="row">
-        <div class="col s12 m8">
+        <div class="col">
           <div class="card-panel z-depth-5">
-            <h5 class="left-align">Professor Criner's Higher Education Preparation Plan</h5>
+            <i class="material-icons large  pink-text">info</i>
+            <h6 class="center-align">Professor Criner's Higher Education Preparation Plan</h6>
             <p class="left-align">
                The education of our young people is a long term process and 
                should be planned by individual families and not abdicated to the 
@@ -16,7 +22,12 @@
                some general guidelines on college preparation for parents and 
                prospective college students. 
             </p>
-            <img src="../../assets/images/bls earnings data.gif" class="imglarge responsive">
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card-panel z-depth-5">
+            <i class="material-icons large  pink-text">local_library</i>
             <h6 class="center-align">Pre-School and Elementary School Preparation</h6>
             <p class="left-align">
               Children begin to learn  in the womb and learning is continuous 
@@ -29,6 +40,12 @@
               This may be done by memorizing poems, bible verses, studying a 
               musical instrument, studying art along with the school curriculum.
             </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-panel z-depth-5">
+            <i class="material-icons large  pink-text">assignment</i>
             <h6 class="center-align">
               Middle School and Junior High School Preparation
             </h6>
@@ -51,6 +68,12 @@
               Students who miss the fundamentals of arithmetic and problem 
               solving at this level are handicapped for life!
             </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-panel z-depth-5">
+            <i class="material-icons large  pink-text">assignment_turned_in</i>
             <h6 class="center-align">
               High School Preparation
             </h6>
@@ -89,20 +112,9 @@
             </p>
           </div>
         </div>
+
       </div>
     </div>
   </section>
   </div>
 </template>
-
-<style scoped>
-.imglarge{
-  width: 100%;
-}
-@media screen and (max-width: 900px){
-  .imglarge{
-  width: 100%;
-  height: auto;
-  }
-}
-</style>

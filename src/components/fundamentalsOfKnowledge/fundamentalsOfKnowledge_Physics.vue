@@ -30,7 +30,7 @@
 
 <style scoped>
 .imglarge{
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 </style>
