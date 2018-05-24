@@ -1,10 +1,6 @@
 <template>
   <!-- Section: Icon Boxes -->
-  
   <div>
-    <section class="section section-icons pink  center">
-            
-  </section>
   <section class="section section-icons pink  center">
     <div class="container">
       <div class="row">
@@ -23,7 +19,7 @@
             </p>
             </div>
             <div class="col s6 left-align">
-              <img src="../../assets/images/PC Image.gif">
+              <img src="../../assets/images/PC Image.gif" class="imglarge responsive">
             </div>
             <div class="col s6">
               <p class="left-align">
@@ -64,5 +60,14 @@
 }
 .colorDiv{
   background-color: teal;
+}
+.imglarge{
+  width: 100%;
+}
+@media screen and (max-width: 900px){
+  .imglarge{
+  width: 100%;
+  height: auto;
+  }
 }
 </style>

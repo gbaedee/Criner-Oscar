@@ -1,19 +1,14 @@
 <template>
   <!-- Section: Icon Boxes -->
-  
   <div>
-    <section class="section section-icons teal  center">
-            <img src="../../assets/images/q2.gif">
-  </section>
   <section class="section section-icons teal  center">
     <div class="container">
-      
       <div class="row">
-        <div class="col">
+        <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  teal-text">info</i>
-            <h1 class="center-align">Mathematics</h1>
-            <h4> The Abstraction of Language</h4>
+            <h4 class="center-align">Mathematics:</h4>
+            <h5> The Abstraction of Language</h5>
+            <img src="../../assets/images/q2.gif" class="imglarge responsive">
             <p class="left-align">
               Many people have wondered why mathematical scientists are very 
               often good musicians. I found the study of music, drama, and art 
@@ -28,11 +23,10 @@
             </p>
           </div>
         </div>
-        <div class="col">
+        <div class="col s12 m4">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  teal-text">account_box</i>
             <p>
-              <img src="../../assets/images/ElbertFCox.gif">
+              <img src="../../assets/images/ElbertFCox.gif" class="responsive imglarge">
             </p>
             <p class="left-align">
               Elbert F. Cox, Ph.D. was the first black person in the world to 
@@ -67,3 +61,10 @@
   </section>
   </div>
 </template>
+
+<style scoped>
+.imglarge{
+  width: 80%;
+  height: auto;
+}
+</style>

@@ -7,23 +7,22 @@
         <div class="app-launcher" >
             <div class="apps">
                 <ul class="first-set">
-                    <li><a href="public_Lectures" class="btn-floating grey btn-small"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Public Lectures">public</i></a></li>
-                    <li><a href="essays_and_Poetry" class="btn-floating brown btn-small"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Essays and Poetry">border_color</i></a></li>
-                    <li><a href="business" class="btn-floating orange btn-small"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Business">business_center</i></a></li>
-                    <li><a href="literature" class="btn-floating amber btn-small"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Literature">local_library</i></a></li>
-                    <li><a href="logic_Law_and_Justice" class="btn-floating yellow btn-small"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Logic, Law and Justice">work</i></a></li>
-                    <li><a href="spirituality" class="btn-floating lime btn-small"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Spirituality">texture</i></a></li>
-                    <li><router-link class="btn-floating green btn-small" to="logicArtAndTheHumanities"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Logic, Art and Humanity">color_lens</i></router-link></li>
-                    <li><router-link class="btn-floating teal btn-small" to="logicPhilosophyAndScience"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Logic, Philosophy And Science">settings_input_component</i></router-link></li>
-                    <li><router-link class="btn-floating cyan btn-small" to="OnEducation"><i class="small material-icons tooltipped" data-position="left" data-tooltip="On Education">school</i></router-link></li>
-                    <li><router-link class="btn-floating indigo btn-small" to="ComputationalFinanceAndEconomics"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Computational Finance and Economics">computer</i></router-link></li>
-                    <li><router-link class="btn-floating purple btn-small" to="ComputationalEnvironmentalScience"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Computional Environmental Science">gps_fixed</i></router-link></li>
-                    <li><router-link class="btn-floating pink btn-small" to="studentAdvisementAndSurvival"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Student Advisement and Survival">account_balance</i></router-link></li>
+                    <li><router-link class="btn-floating blue btn-small" to="/"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Home">home</i></router-link></li>
                     <li><router-link class="btn-floating black btn-small" to="fundamentalsOfKnowledge"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Fundamentals of Knowledge">book</i></router-link></li>
-                </ul>   <a href="#" class="more">More</a>
-
-                <ul class="second-set hide">
-                    
+                    <li><router-link class="btn-floating pink btn-small" to="studentAdvisementAndSurvival"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Student Advisement and Survival">account_balance</i></router-link></li>
+                    <li><router-link class="btn-floating purple btn-small" to="ComputationalEnvironmentalScience"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Computional Environmental Science">gps_fixed</i></router-link></li>
+                    <li><router-link class="btn-floating indigo btn-small" to="ComputationalFinanceAndEconomics"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Computational Finance and Economics">computer</i></router-link></li>
+                    <li><router-link class="btn-floating cyan btn-small" to="OnEducation"><i class="small material-icons tooltipped" data-position="left" data-tooltip="On Education">school</i></router-link></li>
+                    <li><router-link class="btn-floating teal btn-small" to="logicPhilosophyAndScience"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Logic, Philosophy And Science">settings_input_component</i></router-link></li>
+                    <li><router-link class="btn-floating green btn-small" to="logicArtAndTheHumanities"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Logic, Art and Humanity">color_lens</i></router-link></li>
+                    <li><router-link class="btn-floating lime btn-small" to="spirituality"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Spirituality">texture</i></router-link></li>
+                    <li><router-link class="btn-floating yellow btn-small" to="EthicsLawAndJustice"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Logic, Law and Justice">gavel</i></router-link></li>
+                    <li><router-link class="btn-floating amber btn-small" to="literature"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Literature">local_library</i></router-link></li>
+                    <li><router-link class="btn-floating orange btn-small" to="business"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Business">business_center</i></router-link></li>
+                    <li><router-link class="btn-floating brown btn-small" to="EssaysAndPoetry"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Essays and Poetry">border_color</i></router-link></li>
+                    <li><router-link class="btn-floating grey btn-small" to="publicLectures"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Public Lectures">public</i></router-link></li>
+                    <li><router-link class="btn-floating blue-grey btn-small" to="ContactMe"><i class="small material-icons tooltipped" data-position="left" data-tooltip="Contact Me">contacts</i></router-link></li>
+                    <li><router-link class="btn-floating deep-orange btn-small" to="aboutMe"><i class="small material-icons tooltipped" data-position="left" data-tooltip="About Me">account_circle</i></router-link></li>
                 </ul>
             </div>
         </div>

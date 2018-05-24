@@ -1,17 +1,14 @@
 <template>
   <!-- Section: Icon Boxes -->
-  
   <div>
-    <section class="section section-icons purple  center">
-            <img src="../../assets/images/Historical Bubble S and P.gif">
-  </section>
-  <section class="section section-icons purple  center">
+  <section class="section section-icons indigo  center">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  black-text">info</i>
-            <h3 class="center-align">Optimal Control Strategies for Portfolios of Managed Futures</h3>
+            <h4 class="left-align">Computational Finance Research</h4>
+            <img src="../../assets/images/Historical Bubble S and P.gif" class="imglarge responsive">
+            <h6 class="left-align">Optimal Control Strategies for Portfolios of Managed Futures</h6>
             <p class="left-align">
                by Oscar H. Criner in Computational Finance and It Applications
             </p>
@@ -87,5 +84,14 @@ export default {
 <style scoped>
 mark{
     background-color: white;
+}
+.imglarge{
+  width: 100%;
+}
+@media screen and (max-width: 900px){
+  .imglarge{
+  width: 100%;
+  height: auto;
+  }
 }
 </style>

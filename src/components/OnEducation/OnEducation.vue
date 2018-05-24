@@ -1,17 +1,13 @@
 <template>
   <!-- Section: Icon Boxes -->
-  
   <div>
-    <section class="section section-icons cyan  center">
-     <img src="../../assets/images/Autonomic01.gif">
-    </section>
   <section class="section section-icons cyan  center">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  cyan-text">info</i>
-            <h1 class="center-align">On Education -- Memory Is All There Is!</h1>
+            <h4 class="center-align">On Education -- Memory Is All There Is!</h4>
+            <img src="../../assets/images/Autonomic01.gif" class="responsive imglarge">
             <p class="left-align">
               Modern science has long recognized that the common 
               conceptualizations of the functions of the mind are unsatisfactory, 
@@ -55,23 +51,14 @@
             </p>
           </div>
         </div>
-        <section class="section section-icons cyan  center">
-          <img src="../../assets/images/AndrewsPaigeCriner.gif">
-          <p>
-            <mark>
-              <strong>
-                <i>
-                 Old friends, Mrs. Naomi Cox Andrews, Former Secretary of 
-                 Education Rod Paige, and Professor Oscar Criner 
-                </i>
-              </strong>
-            </mark>
-          </p>
-        </section>
-        <div class="col">
+        <div class="col s12 m4">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  cyan-text">local_library</i>
-            <h6 class="center-align">Neuropsychology</h6>
+            <img src="../../assets/images/AndrewsPaigeCriner.gif" class="responsive imglarge">
+            <p class="left-align">
+              Old friends, Mrs. Naomi Cox Andrews, Former Secretary of 
+              Education Rod Paige, and Professor Oscar Criner
+            </p>
+            <h5 class="left-align">Neuropsychology</h5>
             <p class="left-align">
                Complex Systems and the Biological Basis of Knowledge
             </p>
@@ -87,7 +74,7 @@
 </template>
 
 <style scoped>
-mark{
-  background-color: white;
+.imglarge{
+  width: 60%;
 }
 </style>

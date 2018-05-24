@@ -1,18 +1,13 @@
 <template>
   <!-- Section: Icon Boxes -->
   <div>
-   
-    <section class="section section-icons pink  center">
-            <img src="../../assets/images/Dali-2.gif">
-  </section>
   <section class="section section-icons pink  center">
     <div class="container">
-      
       <div class="row">
-        <div class="col">
+        <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  pink-text">info</i>
-            <h6 class="center-align">The Twenty Four--Seven Schedule </h6>
+            <h4 class="left-align">The Twenty Four--Seven Schedule </h4>
+            <img src="../../assets/images/Dali-2.gif" class="imglarge responsive">
             <p class="left-align">
              Young people rarely understand the value of time and  most behave as 
              though there is enough time to do everything that they want to do.  
@@ -253,3 +248,15 @@
   </section>
   </div>
 </template>
+
+<style scoped>
+.imglarge{
+  width: 60%;
+}
+@media screen and (max-width: 900px){
+  .imglarge{
+  width: 100%;
+  height: auto;
+  }
+}
+</style>

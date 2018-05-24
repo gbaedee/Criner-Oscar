@@ -1,18 +1,13 @@
 <template>
   <!-- Section: Icon Boxes -->
-  
   <div>
-    <section class="section section-icons pink  center">
-            <img src="../../assets/images/Student.gif">
-  </section>
   <section class="section section-icons pink  center">
     <div class="container">
-      
       <div class="row">
-        <div class="col">
+        <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  pink-text">info</i>
-            <h6 class="center-align">Choosing a College</h6>
+            <h4 class="left-align">Choosing a College</h4>
+            <img src="../../assets/images/Student.gif" class="imglarge responsive">
             <p class="left-align">
                Choosing the particular college to attend is one of the least 
                important issues about your higher education.  

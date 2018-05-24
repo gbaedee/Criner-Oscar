@@ -3,8 +3,7 @@
   
   <div>
     <section class="section section-icons green  center">
-            <img class="imglarge" src="../../assets/images/Polys1.gif">
-            <img src="../../assets/images/Exponnentials.gif">
+            
   </section>
   <section class="section section-icons green  center">
     <div class="container">
@@ -12,9 +11,32 @@
       <div class="row">
         <div class="col">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  green-text">info</i>
-            <h4 class="left-align"> COMPLEX SYSTEMS, HIGH TECHNOLOGY, AND THE NEW SYNTHESIS </h4>
-            <h6 class="left-align"> By Oscar H. Criner </h6>
+            <h4 class="left-align">
+              Complex Systems
+            </h4>
+            <img class="imglarge" src="../../assets/images/Polys1.gif">
+            <img src="../../assets/images/Exponnentials.gif">
+            <p class="left-align">
+              Polynomials: Linear, Quadratic, and Cubic, and Exponentials 
+            </p>
+            <p class="left-align">
+              "Whas 'appnin man?
+            </p>
+            <p class="left-align">
+              Aw, aint nuttin shakin but da leaves on da trees
+            </p>
+            <p class="left-align">
+              An dey wun't be shakin if it wuzzn't  fu da breeze."
+            </p>
+            <p class="left-align">
+              Traditional hipster greeting.
+            </p>
+            <h5 class="left-align"> 
+              COMPLEX SYSTEMS, HIGH TECHNOLOGY, AND THE NEW SYNTHESIS 
+            </h5>
+            <h6 class="left-align"> 
+              By Oscar H. Criner 
+            </h6>
             <p class="left-align">
                 The 21<sup>st</sup> century is the beginning of an era where many more of 
                 the things we wish to understand are no longer simple, linear, or 

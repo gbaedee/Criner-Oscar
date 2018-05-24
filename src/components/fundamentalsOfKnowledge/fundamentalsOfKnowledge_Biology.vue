@@ -85,7 +85,7 @@
 
 <style scoped>
 .imglarge{
-  height: 400px;
+  width: 90%;
 }
 @media screen and (max-width: 900px){
   .imglarge{

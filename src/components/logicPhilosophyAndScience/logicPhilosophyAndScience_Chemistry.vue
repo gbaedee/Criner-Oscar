@@ -1,18 +1,13 @@
 <template>
   <!-- Section: Icon Boxes -->
-  
   <div>
-    <section class="section section-icons teal  center">
-            <img src="../../assets/images/buckeyb.gif">
-  </section>
   <section class="section section-icons teal  center">
     <div class="container">
-      
       <div class="row">
-        <div class="col">
+        <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  teal-text">info</i>
-            <h1 class="center-align">Chemistry</h1>
+            <h4 class="center-align">Chemistry</h4>
+            <img src="../../assets/images/buckeyb.gif" class="responsive imglarge">
             <p class="left-align">
               The definition I was given in school was that chemistry is the study 
               of matter and the changes that matter undergoes.
@@ -32,3 +27,15 @@
   </section>
   </div>
 </template>
+
+<style scoped>
+.imglarge{
+  width: 60%;
+}
+@media screen and (max-width: 900px){
+  .imglarge{
+  width: 100%;
+  height: auto;
+  }
+}
+</style>

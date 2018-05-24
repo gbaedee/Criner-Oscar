@@ -1,20 +1,15 @@
 <template>
   <!-- Section: Icon Boxes -->
-  
   <div>
-    <section class="section section-icons teal  center">
-      <img class="imglarge" src="../../assets/images/adev.jpg">
-      <img src="../../assets/images/ogotemelli.gif">
-  </section>
   <section class="section section-icons teal  center">
     <div class="container">
-      
       <div class="row">
-        <div class="col">
+        <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  teal-text">info</i>
-            <h1 class="center-align"> Philosophy</h1>
-            <h4> The study of systems that describe human existence </h4>
+            <h4 class="center-align"> Philosophy</h4>
+            <h5> The study of systems that describe human existence </h5>
+            <img class="imglarge responsive" src="../../assets/images/adev.jpg">
+            <img src="../../assets/images/ogotemelli.gif" class="imglarge responsive">
             <p class="left-align">
                 Human beings need to have an explanation of existence.  Most 
                 human societies have creation stories that tell of the origin of 
@@ -54,10 +49,8 @@
             </p>
           </div>
         </div>
-        <div class="col">
+        <div class="col s12 m4">
           <div class="card-panel z-depth-5">
-            <i class="material-icons large  teal-text">local_library</i>
-            <h1 class="center-align"> Readings</h1>
             <p class="left-align">
               <ol>
                 <li>
@@ -107,6 +100,12 @@
 
 <style scoped>
 .imglarge{
-  height: 905px;
+  height: 505px;
+}
+@media screen and (max-width: 900px){
+  .imglarge{
+  width: 100%;
+  height: auto;
+  }
 }
 </style>
