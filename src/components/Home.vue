@@ -21,7 +21,7 @@
               subject.
             </p>
             <p class="left-align">
-              Do not confuse higher education with job training. While employment 
+              Do not confuse higher education with job training.While employment 
               is one outcome of higher education, it should not be the focus of 
               your college career. However, for those who succeed at scholarship, 
               the rewards are very great.
