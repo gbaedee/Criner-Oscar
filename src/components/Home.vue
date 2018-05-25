@@ -36,13 +36,16 @@
             </p>
             <p class="left-align">
               This site is intended to encourage students and show how to develop skills
-              at scholarship; and to consider becoming ascholar and  college teacher. There 
-              is a critical shortage of African American scholars and teachers and this is 
+              at scholarship; and to consider becoming a scholar and  college teacher. There 
+              is a critical shortage of African American scholars and teachers; and this is 
               especially true in all historically black colleges and universities (HBCUs). 
-              This is expecially devastating in the mathematical and computational sciences.
+              This is expecially devastating to academic programs in the mathematical and 
+              computational sciences. 
+
               The chart below shows the number of people applying to my university who chose 
               various majors to study. Most of these people have not been on our campus. They 
-              have just graduated high school.
+              have just graduated high school. The bars sho the number of people who believe 
+              that they want to study in a given area. 
             </p>
            <img src="..\assets\images\2018-05-21_16-35-12.jpg" class="responsive">
 
