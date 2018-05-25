@@ -60,9 +60,9 @@
 	            <a href="#0" class="modal-close">Close</a>
             </div> <!-- .cd-modal -->
 
-<div class="cd-transition-layer" data-frame="38"> 
-	<div class="bg-layer"></div>
-</div>
+            <div class="cd-transition-layer" data-frame="38"> 
+            	<div class="bg-layer"></div>
+            </div>
             
             <p class="left-align">
               For me, scholarship is something you do because you must. You have 
@@ -95,7 +95,6 @@
               have just graduated high school.
             </p>
            <img src="..\assets\images\2018-05-21_16-35-12.jpg" class="responsive">
-
           </div>
         </div>
         

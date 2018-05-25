@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col s12 m8">
           <div class="card-panel z-depth-5">
-            <h4 class="center-align">Reading, Writing, Speaking & Problem Solving</h4>
+            <h4 class="left-align">Reading, Writing, Speaking & Problem Solving</h4>
             <img src="../../assets/images/Analysis & Synthesys.gif" class="responsive imglarge">
             <p class="left-align">
              Probably the most important skills for serious college students to 
