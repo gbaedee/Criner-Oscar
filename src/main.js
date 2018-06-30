@@ -39,5 +39,9 @@ new Vue({
      const el = document.querySelector('.tooltipped');
      M.Materialbox.init(el,{});
 
+     
+
   }
+  
 })
+
