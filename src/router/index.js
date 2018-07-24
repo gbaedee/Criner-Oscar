@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Login from '@/components/Login';
 import aboutMe from '@/components/aboutMe/aboutMe';
-import appLauncher from '@/components/appLauncher'
+import appLauncher from '@/components/appLauncher';
 import Spirituality from '@/components/Spirituality/Spirituality'
 import EthicsLawAndJustice from '@/components/EthicsLawAndJustice/EthicsLawAndJustice'
 import Literature from '@/components/Literature/Literature'

@@ -71,11 +71,10 @@
               subject.
             </p>
             <p class="left-align">
-              Do not confuse higher education with job training. While employment 
+              Do not confuse higher education with job training.While employment 
               is one outcome of higher education, it should not be the focus of 
               your college career. However, for those who succeed at scholarship, 
               the rewards are very great.
-              <label for="item-2">Toggle Div</label>
             </p>
             <p class="left-align">
               However, scholarship is not usually considered a profession.
@@ -85,30 +84,23 @@
               writers, businesspersons, artists, musicians, scientists, mathematicians, 
               researchers, and engaged in a host of other endeavors.
             </p>
-            <div class="ex2">
-                <input type="checkbox" name="rwo" id="item-2">
-                  <div class="inner">
-                    <div class="hide2">
-                      <img src="..\assets\images\2018-05-21_16-35-12.jpg" class="responsive">
-                    </div>
-                  </div>
-            </div>
-            
             <p class="left-align">
               This site is intended to encourage students and show how to develop skills
-              at scholarship; and to consider becoming ascholar and  college teacher. There 
-              is a critical shortage of African American scholars and teachers and this is 
-              especially true in all historically
-              
-              black colleges and universities (HBCUs). This is expecially devastating in the mathematical and computational sciences.
+              at scholarship; and to consider becoming a scholar and  college teacher. There 
+              is a critical shortage of African American scholars and teachers; and this is 
+              especially true in all historically black colleges and universities (HBCUs). 
+              This is expecially devastating to academic programs in the mathematical and 
+              computational sciences. 
+
               The chart below shows the number of people applying to my university who chose 
               various majors to study. Most of these people have not been on our campus. They 
-              have just graduated high school.
+              have just graduated high school. The bars sho the number of people who believe 
+              that they want to study in a given area. 
             </p>
+           <img src="..\assets\images\2018-05-21_16-35-12.jpg" class="responsive">
           </div>
         </div>
-
-      
+        
         <div class="col s12 m4">
           <div class="card-panel z-depth-5">
             <img src="..\assets\images\crinerOscarH.jpg" class="responsive">
@@ -145,9 +137,7 @@
     width: 100%;
     height: auto;
 }
-.is-collapsed li:nth-child(n+5) {
-  display: none;
-}
+
 /* -------------------------------- 
 
 Primary style
@@ -478,40 +468,5 @@ Animations
             transform: translateY(-50%) translateX(-97.5%);
   }
 }
-
-/* hide and show image */
-label {
-  color: red;
-}
-label:hover {
-  text-decoration: underline;
-}
-
-/* example 2 */
-.inner {
-  position: relative;
-  overflow: hidden;
-}
-.hide2 {
-  opacity: 0;
-  transform: translateY(-100%);
-  margin-bottom: -999em;
-  transition: all 1.5s linear, margin 0s linear 1.5s;
-}
-
-
-.ex2 .follow {
-  clear: both;
-}
-
-.ex2 input[type="checkbox"]:checked + .inner .hide2 {
-  clear: both;
-  opacity: 1;
-  overflow: hidden;
-  transform: translateY(0);
-  margin: 0;
-  transition: all 1.5s linear, margin 0s linear 0s;
-}
-
 
 </style>

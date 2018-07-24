@@ -1,8 +1,8 @@
 <template>
   <div class="menu">
     <div class="launcher">
-        <div class="button">
-            <i class="fa fa-th fa-2x"></i>
+        <div class="button">    <i class="fa fa-th fa-2x"></i>
+
         </div>
         <div class="app-launcher" >
             <div class="apps">
